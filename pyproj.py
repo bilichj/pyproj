@@ -110,4 +110,4 @@ except subprocess.CalledProcessError:
     sys.exit(1)
 
 print('Success! Opening VSCode...')
-subprocess.check_call(['open-project', 'args.name'])
+subprocess.check_call(['open-project', f'args.name'])
